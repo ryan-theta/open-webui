@@ -4,7 +4,7 @@ pydantic==2.8.2
 python-multipart==0.0.9
 
 Flask==3.0.3
-Flask-Cors==4.0.1
+Flask-Cors==6.0.0
 
 python-socketio==5.11.3
 python-jose==3.3.0
@@ -78,3 +78,5 @@ duckduckgo-search~=6.2.1
 docker~=7.1.0
 pytest~=8.2.2
 pytest-docker~=3.1.1
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability

@@ -41,7 +41,7 @@ langchain-chroma==0.1.2
 fake-useragent==1.5.1
 chromadb==0.5.4
 sentence-transformers==3.0.1
-pypdf==4.3.1
+pypdf==6.6.0
 docx2txt==0.8
 python-pptx==1.0.0
 unstructured==0.15.0
@@ -78,3 +78,5 @@ duckduckgo-search~=6.2.1
 docker~=7.1.0
 pytest~=8.2.2
 pytest-docker~=3.1.1
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
